@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* Support ladle dark theme switch */
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
